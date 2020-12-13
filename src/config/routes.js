@@ -5,6 +5,7 @@ import {
   Login,
   ProfileId,
   InfoCorona,
+  Product,
   DetailDate,
 } from '../pages';
 
@@ -17,6 +18,11 @@ const routes = [
   {
     path: '/profile',
     component: Profile,
+    isPublic: false,
+  },
+  {
+    path: '/product',
+    component: Product,
     isPublic: false,
   },
   {
